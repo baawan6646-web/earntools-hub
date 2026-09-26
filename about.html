@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About EarnTools Hub</title>
+<meta name="description" content="Learn about EarnTools Hub and our mission to provide simple, free online tools for students, freelancers and online sellers.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">EarnTools<span>Hub</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#tools">Tools</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="about-section">
+    <div class="container about-content">
+      <p class="eyebrow">ABOUT EARNTOOLS HUB</p>
+      <h1>Simple tools for <span>everyday work.</span></h1>
+
+      <p>EarnTools Hub is a free online tools website created to make common tasks easier for students, freelancers and online sellers.</p>
+
+      <p>Our goal is simple: provide useful tools that are easy to understand, quick to use and accessible without complicated sign-ups.</p>
+
+      <h2>What we offer</h2>
+      <p>Our tools help with everyday tasks such as typing practice, profit and loss calculations, freelance fee calculations, percentage and grade calculations, and creating simple invoices.</p>
+
+      <h2>Built with simplicity in mind</h2>
+      <p>Our core tools run directly in your web browser. This means you can use them quickly without depending on an account or a complicated setup.</p>
+
+      <h2>Our future plans</h2>
+      <p>We plan to add more useful tools and helpful guides covering topics relevant to students, freelancers and online sellers. We will focus on practical features and clear, easy-to-follow information.</p>
+
+      <p><a href="index.html" class="primary-btn">← Back to EarnTools Hub</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 EarnTools Hub. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
+if (menuBtn && nav) {
+  menuBtn.addEventListener("click", () => nav.classList.toggle("show"));
+}
+</script>
+</body>
+</html>
